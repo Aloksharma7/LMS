@@ -1,0 +1,79 @@
+Library Management System Documentation
+Introduction
+Overview
+Welcome to the Library Management System (LMS), a web-based solution to simplify library operations.
+
+Key Purposes and Benefits
+Explore the system's streamlined book and user management, enhancing user experiences.
+
+Getting Started
+Access the System
+Go to URL:
+
+Open your web browser.
+Enter localhost/lms/index.php in the address bar.
+Log in to the Admin Panel:
+
+Use your administrator credentials.
+Manage Books
+Step 1: Adding New Books
+Navigate to Manage Books:
+
+Click on "Manage Books."
+Add a New Book:
+
+Select "Add New Book."
+Input title, author, and ISBN.
+Optionally upload cover images.
+Confirm to add the book.
+Step 2: Deleting Books
+Navigate to Manage Books:
+
+Click on "Manage Books."
+Delete a Book:
+
+Select the book to delete.
+Confirm to remove the book.
+Manage Users
+Step 1: Adding New Users
+Navigate to Manage Users:
+
+Click on "Manage Users."
+Add a New User:
+
+Select "Add New User."
+Enter name and contact details.
+Confirm to create the user.
+Step 2: Removing User Accounts
+Navigate to Manage Users:
+
+Click on "Manage Users."
+Remove a User:
+
+Select the user to remove.
+Confirm to delete the user.
+Borrowing and Returning Books
+Step 1: Borrowing Books
+Navigate to Borrowing Section:
+
+Click on "Borrowing."
+Borrow a Book:
+
+Select the book and borrower.
+Confirm to complete the borrowing process.
+Step 2: Returning Books
+Navigate to Returns Section:
+
+Click on "Returns."
+Return a Book:
+
+Select the book being returned.
+Confirm to update the book status.
+Reports
+Access Reports:
+
+Click on "Reports."
+Generate and View:
+
+Choose the report type (e.g., book availability, user activity).
+View reports for analysis.

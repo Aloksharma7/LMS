@@ -1,0 +1,241 @@
+
+:root{
+    --ultra_dark_blue : #0A2647;
+    --light_dark_blue: #144272;
+    --dark_blue : #205295;
+    --light_blue : #2C74B3;
+    --white : #FFFfff;
+    --whiteSmoke : #f5f5f5;
+
+}
+.organizeBooks{
+    display:flex ;
+    margin-bottom: 20px;
+}
+
+.books{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searchSection{
+    display: flex;
+}
+
+.searchSection input{
+    width: 300px;
+    color: white;
+    outline: none;
+    padding: 10px;
+    background: transparent;
+    /* border: 2px solid #2c74b3; */
+    border-radius: 20px;
+    
+}
+
+
+.bookStyle{
+    /* background: aqua; */
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    min-height: 200px;
+    align-items: center;
+    padding: 16px;
+}
+
+.image{
+    /* box-shadow: 0px 1px 12px -6px #205295; */
+    filter: drop-shadow(1px 4px 3px #205);
+    margin-bottom: 10px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.data>.name{
+    font-weight: 700;
+}
+
+.data> .Author,.Publication{font-size: 13px;
+    font-weight: 600;
+    color: #acacac;}
+
+.data>.name,.Author,.Publication{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* font-size: 16px; */
+    width: 100px;
+}
+
+.addBooksBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: -18px;
+    margin-bottom: 12px;
+}
+.addBooksBtn input{
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    /* width: 40%; */
+    color: white;
+    background-color: var(--light_blue);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addBooksBtn input:hover{
+    background-color: #39ff00c7;
+}
+
+.form{
+    width: 370px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    display: none;
+    filter: drop-shadow(2px 4px 6px grey);
+    /* margin: 20vh auto 0 auto; */
+    /* font-size: 14px; */
+    /* color: grey; */
+}
+
+
+.form h1{
+    color: #0f2027;
+    text-align: center;
+}
+
+.form .frm-header{
+    position: relative;
+}
+
+.form center{
+    color: black;
+}
+.frm-header .close{
+    position: absolute;
+    top: -10px;
+    left: 350px;
+    font-weight: 200;
+    filter: opacity(.7);
+    cursor: pointer;
+}
+
+.frm-header .close:hover{
+    filter: opacity(1);
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+.btns input{
+    padding: 10px;
+    margin-top: 10px;
+    width: 40%;
+    color: white;
+    background-color: var(--dark_blue);
+    border: none;
+    border-radius: 4px;
+}
+
+#addBtn{
+    color: white !important;
+    background-color: var(--dark_blue);
+    cursor: pointer;
+}
+#addBtn:hover{
+    background-color: var(--light_blue);
+}
+#resetBtn{
+    color: white !important;
+    background: #952020;
+    cursor: pointer;
+}
+#resetBtn:hover{
+    background: #b32c2c;
+}
+
+.data-field span{
+    color: black;
+}
+
+.data-field input{
+    border: 2px solid #dcdcdc;
+	border-radius: 4px;
+	/* display: block; */
+	font-size: 14px;
+	padding: 10px;
+	width: calc(100% - 30px);
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+.data-field input:focus{
+    outline: none;
+}
+
+.books input{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: rgb(194 41 41);
+    cursor: pointer;
+}
+.details{
+    display: flex;
+    justify-content: center;
+}
+
+.details .btn{
+    filter: opacity(0.7);
+}
+.details .btn:hover{
+    filter: opacity(1);
+}
+.group-data-field{
+    display: flex;
+}
+
+.msg{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #39ff00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50px, 50px);
+}
+
+.image::after{
+    /* content: '1'; */
+    background-color: #2c74b3;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* filter: drop-shadow(2px 4px 2px black); */
+}

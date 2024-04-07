@@ -1,0 +1,223 @@
+.manage{
+    display:flex ;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+
+.searchSection{
+    display: flex;
+    width: 85%;
+    margin-right: 10px;
+}
+
+.searchSection input{
+    width: 300px;
+    color: white;
+    outline: none;
+    padding: 10px;
+    background: transparent;
+    /* border: 2px solid #2c74b3; */
+    border-radius: 20px;
+}
+
+
+.addDataBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: -18px;
+    margin-bottom: 12px;
+}
+.addDataBtn input{
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    /* width: 40%; */
+    color: white;
+    background-color: var(--light_blue);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.addDataBtn input:hover{
+    background-color: #39ff00c7;
+}
+
+/* .form{
+    width: 478px;
+    background: aqua;
+    padding: 20px;
+} */
+
+
+.form{
+    width: 370px;
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    display: none;
+    filter: drop-shadow(2px 4px 6px grey);
+    /* font-size: 14px; */
+    /* color: grey; */
+}
+form{
+    width: 100%;
+}
+
+.form h1{
+    color: #0f2027;
+    text-align: center;
+}
+
+.form center{
+    color: black;
+}
+
+.frm-header .close{
+    position: absolute;
+    top: 16px;
+    left: 364px;
+    font-weight: 200;
+    filter: opacity(0.7);
+    cursor: pointer;
+}
+.frm-header .close:hover{
+    filter: opacity(1);
+}
+
+.data-field span{
+    color: black;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+.btns input{
+    padding: 10px;
+    margin-top: 10px;
+    width: 40%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+
+#addBtn{
+    color: white !important;
+    background-color: var(--dark_blue);
+    cursor: pointer;
+}
+#addBtn:hover{
+    background-color: var(--light_blue);
+}
+#resetBtn{
+    color: white !important;
+    background: #952020;
+    cursor: pointer;
+}
+#resetBtn:hover{
+    background: #b32c2c;
+}
+
+.data-field span{
+    color: black;
+}
+
+.data-field input{
+    border: 2px solid #dcdcdc;
+	border-radius: 4px;
+	/* display: block; */
+	font-size: 14px;
+	padding: 10px;
+	width: calc(100% - 30px);
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+.data-field input:focus{
+    outline: none;
+}
+
+.manage .data{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #437dba3d;
+    width: 200px;
+    height: 160px;
+    margin: 5px;
+    justify-content: center;
+}
+.data .fname{
+    font-size: 24px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 140px;
+    padding-bottom: 10px;
+    color: aqua;
+    text-transform: capitalize;
+}
+
+.data .bookname{
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 140px;
+
+}
+.data .ReturnDate{
+    margin-bottom: 20px;
+}
+
+.data input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: var(--light_blue);
+    cursor: pointer;
+}
+
+#deletBtn input:hover{
+    background: rgb(194 41 41);
+}
+#returnBtn input:hover{
+    background: #249520;
+}
+
+.actionButtons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.actionButtons form{
+    width: 48%;
+}
+
+.msg{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #39ff00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50px, 50px);
+}
